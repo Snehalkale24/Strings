@@ -1,12 +1,38 @@
-import java.util.*;
-public class removeduplicate
-{
+// import java.util.*;
+// public class removeduplicate
+// {
+// 	public static void remove(String str)
+// 	{
+// 		for(int i=0;i<str.length();i++)
+// 		{
+// 			int j;
+// 			for(j=0;j<i;j++)
+// 			{
+// 				if(str.charAt(i)==str.charAt(j))
+// 				{
+// 					break;
+// 				}
+// 			}
+// 			if(j==i)
+// 			{
+// 				System.out.print(str.charAt(i));
+// 			}
+// 		}
+// 	}
+// 	public static void main(String args[])
+// 	{
+// 		Scanner s=new Scanner(System.in);
+// 		System.out.println("enter string:");
+// 		String str=s.nextLine();
+// 		remove(str);
+// 	}
+// }
+public class removeduplicate{
 	public static void remove(String str)
 	{
 		for(int i=0;i<str.length();i++)
 		{
-			int j;
-			for(j=0;j<i;j++)
+			for(int j=0;j<i;j++)
 			{
 				if(str.charAt(i)==str.charAt(j))
 				{
@@ -15,14 +41,14 @@ public class removeduplicate
 			}
 			if(j==i)
 			{
-				System.out.print(str.charAt(i));
+				System.out.println(str.charAt(i));
 			}
 		}
 	}
 	public static void main(String args[])
 	{
 		Scanner s=new Scanner(System.in);
-		System.out.println("enter string:");
+		System.out.println("enter String:");
 		String str=s.nextLine();
 		remove(str);
 	}
