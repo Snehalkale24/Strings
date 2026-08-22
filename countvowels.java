@@ -27,9 +27,7 @@ public class countvowels
 	{
 		String str="snehal";
 		int vowels=0;
-		int consonent=0;
-
-
+		int consonents=0;
 		for(int i=0;i<str.length();i++)
 		{
 			char ch=str.charAt(i);
@@ -38,9 +36,9 @@ public class countvowels
 				vowels++;
 			}
 			else{
-				consonent++;
+				consonents++;
 			}
 		}
-		System.out.println("vowels:+"+vowels);
+		System.out.println("vowels"+vowels);
 	}
 }
