@@ -25,23 +25,8 @@
 
 public class longword
 {
-	public static String longest(String str)
+	public static void long(String str)
 	{
-		String words[]=str.split(" ");
-		String longest=words[0];
-
-		for(int i=1;i<words.length;i++)
-		{
-			if(words[i].length>longest.length())
-			{
-				longest=words[i];
-			}
-		}
-		return longest;
-	}
-	public static  void main(String args[])
-	{
-		String str="wrefd gdsgd dhdsfs sgs";
-		System.out.println("long:"+longest(str));
+		String 
 	}
 }

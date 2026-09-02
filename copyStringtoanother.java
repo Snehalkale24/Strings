@@ -26,6 +26,6 @@ public class copyStringtoanother{
 	{
 		String str1="snehal";
 		String str2=str1;
-		System.out.println(str2);
+		System.out.println("s:"+str2);
 	}
 }

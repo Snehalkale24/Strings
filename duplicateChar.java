@@ -31,7 +31,7 @@ public class duplicateChar{
 			int count=0;
 			for(int j=0;j<str.length();j++)
 			{
-				if(str.charAt(i)==str.charAt(j))
+				id(str.charAt(i)==str.length(j))
 				{
 					count++;
 				}

@@ -15,7 +15,7 @@
 public class findlength{
 	public static void main(String args[])
 	{
-		String str="hello dxj jj ";
+		String str="hello";
 		int count=0;
 		for(char ch:str.toCharArray())
 		{

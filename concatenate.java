@@ -55,21 +55,21 @@
 // 	}
 // }
 public class concatenate{
-	public static String conc(String s1,String s2)
+	public static String concate(String s1,String s2)
 	{
-		String result=" ";
-		for(int i=0;i<s1.length();i++)
-		{
-			result=result+s1.charAt(i);
-		}
-		for(int j=0;j<s2.length();j++)
-		{
-			result=result+s2.charAt(j);
-		}
-		return result;
+     String result=" ";
+     for(int i=0;i<s1.length();i++)
+     {
+     	result=result+s1.charAt(i);
+     }
+     for(int j=0;j<s2.length();j++)
+     {
+     	result=result+s2.charAt(i);
+     }
+     return result;
 	}
 	public static void main(String args[])
 	{
-		System.out.println(conc("hello","sdf"));
+		System.out.println(concatenate("hello","world"));
 	}
 }

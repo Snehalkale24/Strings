@@ -1,3 +1,25 @@
+// public class checkequals{
+// 	public static boolean check(String s1,String s2)
+// 	{
+// 		if(s1.length() != s2.length())
+// 		{
+// 			return false;
+// 		}
+
+// 		for(int i=0;i<s1.length();i++)
+// 		{
+// 			if(s1.charAt(i)== s2.charAt(i))
+// 			{
+// 				return true;
+// 			}
+// 		}
+// 		return false;
+// 	}
+// 	public static void main(String args[])
+// 	{
+// 		System.out.println(check("java","java"));
+// 	}
+// }
 public class checkequals{
 	public static boolean check(String s1,String s2)
 	{
@@ -5,10 +27,9 @@ public class checkequals{
 		{
 			return false;
 		}
-
 		for(int i=0;i<s1.length();i++)
 		{
-			if(s1.charAt(i)== s2.charAt(i))
+			if(s1.charAt(i)==s2.charAt(i))
 			{
 				return true;
 			}
@@ -18,5 +39,8 @@ public class checkequals{
 	public static void main(String args[])
 	{
 		System.out.println(check("java","java"));
+	}
+	{
+
 	}
 }
