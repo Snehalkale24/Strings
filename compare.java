@@ -17,5 +17,17 @@
 
 
 public class compare{
-	
+	public static void main(String args[])
+	{
+		String str1="snehal";
+		String str2="snehal";
+
+		if(str1.equals(str2))
+		{
+			System.out.println("string are equals");
+		}
+		else{
+			System.out.println("not");
+		}
+	}
 }
