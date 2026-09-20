@@ -21,14 +21,15 @@
 // 	}
 // }
 public class checkequals{
-	public static boolean check(String s1,String s2)
+	public static int check(String s1,String s2)
 	{
 		if(s1.length()!=s2.length())
+		{
 			return false;
-
+		}
 		for(int i=0;i<s1.length();i++)
 		{
-			if(s1.length()==s2.length())
+			if(s1.length(i)==s2.length(i))
 			{
 				return true;
 			}
