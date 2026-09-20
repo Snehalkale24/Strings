@@ -30,4 +30,4 @@ public class compare{
 			System.out.println("not");
 		}
 	}
-}.
+}
