@@ -11,7 +11,7 @@
 public class countword{
 	public static void main(String args[])
 	{
-		String str="snehal";
+		String str="hello dfs fsf sf";
 		String arr[]=str.split(" ");
 		System.out.println(arr.length);
 	}
