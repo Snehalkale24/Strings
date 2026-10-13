@@ -24,6 +24,6 @@
 public class checkequals{
 	public static boolean check(String s1,String s2)
 	{
-		if(s1)
+		if(s1.)
 	}
 }
