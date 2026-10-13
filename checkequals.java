@@ -27,5 +27,6 @@ public class checkequals{
      if(s1.length()!= s2.length()){
      	return false;
      }
+     for(int )
 	}
 }
