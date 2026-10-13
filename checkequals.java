@@ -20,24 +20,3 @@
 // 		System.out.println(check("java","java"));
 // 	}
 // }
-public class checkequals{
-	public static int check(String s1,String s2)
-	{
-		if(s1.length()!=s2.length())
-		{
-			return false;
-		}
-		for(int i=0;i<s1.length();i++)
-		{
-			if(s1.length(i)==s2.length(i))
-			{
-				return true;
-			}
-		}
-		return false;
-	}
-	public static void main(String args[])
-	{
-		System.out.println(check("java","java"));
-	}
-}
