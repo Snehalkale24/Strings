@@ -33,7 +33,7 @@ public class checkequals{
      		return true;
      	}
      }
-     return 
+     return false;
 	}
 	public static void main(String args[])
 	{
