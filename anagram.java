@@ -21,25 +21,3 @@
 
 // 	}
 // }
-import java.util.*;
-public class anagram{
-    public static void main(String args[])
-    {
-        String str1="listen";
-        String str2="silent";
-
-        char arr1[]=str.toCharArray();
-        char arr2[]=str.toCharArray();
-
-        Arrays.sort(arr1);
-        Arrays.sort(arr2);
-
-        if(Arrays.equals(arr1,arr2))
-        {
-            System.out.println("anagaram");
-        }
-        else{
-            System.out.println("not anagram");
-        }
-    }
-}
