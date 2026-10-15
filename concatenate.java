@@ -35,18 +35,3 @@
 // }
 
 
-import java.util.*;
-public class concatenate{
-	public static void main(String args[])
-	{
-		Scanner s=new Scanner(System.in);
-		System.out.println("enter first string:");
-		String s1=s.nextLine();
-
-		System.out.println("enter second string:");
-		String s2=s.nextLine();
-
-		String s3=s1+s2;
-		System.out.println("concatenate:"+s3);
-	}
-}
