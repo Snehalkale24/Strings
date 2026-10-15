@@ -27,5 +27,8 @@ public class compare{
 		{
 			System.out.println("string equals");
 		}
+		else{
+			System.out.println("not equals");
+		}
 	}
 }
