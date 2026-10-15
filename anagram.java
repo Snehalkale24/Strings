@@ -25,20 +25,23 @@
 
 import java.util.*;
 public class anagram{
-    public static boolean check(String s1,String s2)
+    public static void main(String args[])
     {
-        if(s1.length()!=s2.length())
-        {
-            return false;
-        }
+        String s1="listen";
+        String s2="silent";
 
-        for(int i=0;i<s1.length();i++)
+        char s11[]=s1.toCharArray();
+        char s22[]=s2.toCharArray();
+
+        Arrays.sort(s11);
+        Arrays.sort(s22);
+
+        if(Arrays.equals(s11,s22))
         {
-            if(s1.length()==s2.length())
-            {
-                return true;
-            }
+            System.out.println("anagram");
         }
-        return
+        else{
+            System.out.println("not anagram");
+        }
     }
 }
