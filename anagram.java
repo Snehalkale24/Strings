@@ -44,4 +44,4 @@ public class anagram{
             System.out.println("not anagram");
         }
     }
-}
+}}
