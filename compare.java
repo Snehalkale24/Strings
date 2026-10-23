@@ -16,19 +16,18 @@
 
 
 
+
 public class compare{
-	public static void main(String args[])
+	public static void  main(String args[])
 	{
-
-		String s1="java";
-		String s2="javaa";
-
-		if(s1.equals(s2))
+		String str="java";
+		String str2="java";
+		if(str.equals(str2))
 		{
-			System.out.println("string equals");
+			System.out.println("string are equals");
 		}
 		else{
-			System.out.println("not equals");
+			System.out.println("not");
 		}
 	}
 }
