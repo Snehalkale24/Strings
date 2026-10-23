@@ -35,7 +35,7 @@ public class duplicateChar{
 				{
 					count++;
 				}
-			}
+			}}
 			if(count>1)
 			{
 				System.out.println(str.charAt(i));
