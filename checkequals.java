@@ -21,6 +21,7 @@
 // 	}
 // }
 
+
 import java.util.*;
 public class checkequals{
 	public static boolean check(String s1,String s2)
@@ -40,6 +41,6 @@ public class checkequals{
 	}
 	public static void main(String args[])
 	{
-		System.out.println(check("java","java"));
+		System.out.println(check("snehal","snehal"));
 	}
 }
