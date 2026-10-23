@@ -50,3 +50,20 @@
 // 		reverse(str);
 // 	}
 // }
+
+public class reverse{
+	public static void reverse(String str)
+	{
+		String remove=" ";
+		for(int i=str.length()-1;i>=0;i--)
+		{
+			remove=remove+ch.charAt(i);
+		}
+		System.out.println(remove);
+	}
+	public static void main(String args[])
+	{
+		String str="snehal";
+		reverse(str);
+	}
+}
