@@ -55,26 +55,54 @@
 // 	}
 // }
 
-public class firstnonrepeating{
-  static char firstnonrepeating(String str){
-  char ch[]= str.toCharArray();
+// public class firstnonrepeating{
+//   static char firstnonrepeating(String str){
+//   char ch[]= str.toCharArray();
   
-  for( int i=0 ;i<ch.length;i++){
-  	int count=0;
-  	for(int j=0;j<ch.length;j++){
-  		if ( ch[i]==ch[j]){
-  			count++;
-  		}
-  	}
-  	if(count==1){
-  		return ch[i];
-  	}
-  }
-return 0;
-  }
-	public static void main(String args[])
+//   for( int i=0 ;i<ch.length;i++){
+//   	int count=0;
+//   	for(int j=0;j<ch.length;j++){
+//   		if ( ch[i]==ch[j]){
+//   			count++;
+//   		}
+//   	}
+//   	if(count==1){
+//   		return ch[i];
+//   	}
+//   }
+// return 0;
+//   }
+// 	public static void main(String args[])
+// 	{
+// 		String str="swiss";
+// 		System.out.println(firstnonrepeating( str));
+// 	}
+// }
+
+import java.util.*;
+public class firstnonrepeating{
+	public static void first(String str)
 	{
-		String str="swiss";
-		System.out.println(firstnonrepeating( str));
+   char ch[]=str.toCharArray();
+   for(int i=0;i<ch.length;i++)
+   {
+   	int count=0;
+   	for(int j=0;j<ch.length;j++)
+   	{
+   		if(ch[i]==ch[j])
+   		{
+   			count++;
+   		}
+   	}
+   	if(count==1)
+   	{
+   		return ch[i];
+   	}
+   	public static void main(String args[])
+   	{
+   		String str="snneehaall";
+   		System.out.println(first(str));
+   	}
+   }
 	}
 }

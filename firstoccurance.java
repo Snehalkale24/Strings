@@ -12,6 +12,6 @@ public class firstoccurance{
 	}
 	public static  void main(String args[])
 	{
-		System.out.println(first("programming",'g'));
+		System.out.println(first("programming",'r'));
 	}
 }
