@@ -79,30 +79,58 @@
 // 	}
 // }
 
+// import java.util.*;
+// public class firstnonrepeating{
+// 	public static void first(String str)
+// 	{
+//    char ch[]=str.toCharArray();
+//    for(int i=0;i<ch.length;i++)
+//    {
+//    	int count=0;
+//    	for(int j=0;j<ch.length;j++)
+//    	{
+//    		if(ch[i]==ch[j])
+//    		{
+//    			count++;
+//    		}
+//    	}
+//    	if(count==1)
+//    	{
+//    		return ch[i];
+//    	}
+//    	public static void main(String args[])
+//    	{
+//    		String str="snneehaall";
+//    		System.out.println(first(str));
+//    	}
+//    }
+// 	}
+// }
 import java.util.*;
 public class firstnonrepeating{
-	public static void first(String str)
-	{
-   char ch[]=str.toCharArray();
-   for(int i=0;i<ch.length;i++)
-   {
-   	int count=0;
-   	for(int j=0;j<ch.length;j++)
-   	{
-   		if(ch[i]==ch[j])
-   		{
-   			count++;
-   		}
-   	}
-   	if(count==1)
-   	{
-   		return ch[i];
-   	}
-   	public static void main(String args[])
-   	{
-   		String str="snneehaall";
-   		System.out.println(first(str));
-   	}
-   }
-	}
+  public static void first(String str)
+  {
+    char ch[]=str.toCharArray();
+    for(int i=0;i<ch.length;i++)
+    {
+      int count=0;
+      for(int j=0;j<ch.length;j++)
+      {
+        if(ch[i]==ch[j])
+        {
+          count++;
+        }
+      }
+      if(count>1)
+      {
+        return ch[i];
+      }
+      public static void main(String args[])
+      {
+        String str="snehal";
+        System.out.println(first(str));
+      }
+
+    }
+  }
 }
