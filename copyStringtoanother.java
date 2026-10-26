@@ -21,11 +21,13 @@
 // 		System.out.println("copy String:"+str2);
 // 	}
 // }
+
 public class copyStringtoanother{
-	public static void main(String args[])
+	public static void main(String arrgs[])
 	{
-		String str1="snehal";
-		String str2=str1;
-		System.out.println("s:"+str2);
+		String s1="snehal";
+		String s2=s1;
+		System.out.println("original"+s1);
+		System.out.println("df:"+s2);
 	}
 }
