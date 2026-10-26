@@ -25,12 +25,13 @@
 public class duplicateChar{
 	public static void main(String args[])
 	{
-		String str="snehhha";
+		String str="snehaahhl";
+		
 		for(int i=0;i<str.length();i++)
 		{
-			int count=0;
 			for(int j=0;j<str.length();j++)
 			{
+				int count=0;
 				if(str.charAt(i)==str.charAt(j))
 				{
 					count++;
@@ -38,7 +39,7 @@ public class duplicateChar{
 			}
 			if(count>1)
 			{
-				System.out.println(str.charAt(i));
+				System.out.println("duplicate"+count);
 			}
 		}
 	}
