@@ -22,25 +22,3 @@
 // }
 
 
-import java.util.*;
-public class checkequals{
-	public static boolean check(String s1,String s2)
-	{
-		if(s1.length()!=s2.length())
-		{
-			return false;
-		}
-		for(int i=0;i<s1.length();i++)
-		{
-			if(s1.length()==s2.length())
-			{
-				return true;
-			}
-		}
-		return false;
-	}
-	public static void main(String args[])
-	{
-		System.out.println(check("snehal","snehal"));
-	}
-}
