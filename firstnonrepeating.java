@@ -124,7 +124,7 @@ public class firstnonrepeating{
       if(count>1)
       {
         return ch[i];
-      }
+      }x
       public static void main(String args[])
       {
         String str="snehal";
