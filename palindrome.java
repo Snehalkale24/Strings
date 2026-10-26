@@ -15,28 +15,47 @@
 //         }
 //     }
 // }
-public class palindrome
-{
+// public class palindrome
+// {
+//     public static void main(String args[])
+//     {
+//         String str = "madam";
+
+//         char ch[] = str.toCharArray();
+
+//         String rev = "";
+
+//         for(int i = ch.length - 1; i >= 0; i--)
+//         {
+//             rev = rev + ch[i];
+//         }
+
+//         if(str.equals(rev))
+//         {
+//             System.out.println("Palindrome");
+//         }
+//         else
+//         {
+//             System.out.println("Not Palindrome");
+//         }
+//     }
+// }
+public class palindrome{
     public static void main(String args[])
     {
-        String str = "madam";
-
-        char ch[] = str.toCharArray();
-
-        String rev = "";
-
-        for(int i = ch.length - 1; i >= 0; i--)
+        String str="madam";
+        char ch[]=str.toCharArray();
+        string reverse=" ";
+        for(int i=ch.length-1;i>=0;i--)
         {
-            rev = rev + ch[i];
+            reverse=reverse+ch[i];
         }
-
-        if(str.equals(rev))
+        if(str.equals(reverse))
         {
-            System.out.println("Palindrome");
+            System.out.println("yes");
         }
-        else
-        {
-            System.out.println("Not Palindrome");
+        else{
+            System.out.println("no");
         }
     }
 }
