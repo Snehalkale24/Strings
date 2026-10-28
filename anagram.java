@@ -23,3 +23,24 @@
 // }
 
 
+public class anagram
+{
+    public static void main(String args[])
+    {
+        String s1="silent";
+        String s2="listen";
+
+        char ch[]=s1.toCharArray();
+        char ch2[]=s2.toCharArray();
+
+        Arrays.sort(ch);
+        Arrays.sort(ch2);
+        if(ch.equals(ch2))
+        {
+            System.out.println("anagram");
+        }
+        else{
+            System.out.println("not")
+        }
+    }
+}
