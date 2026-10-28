@@ -25,6 +25,6 @@ public class shiftfirsttolast{
 		ch[0]=ch[ch.length-1];
 		ch[ch.length-1]=temp;
 
-		retu
+		return 
 	}
 }
