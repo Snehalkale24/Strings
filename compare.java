@@ -17,17 +17,4 @@
 
 
 
-public class compare{
-	public static void main(String args[])
-	{
-		String str="java";
-		String str2=new String("java");
-		if(str.equals(str2))
-		{
-			System.out.println("equals");
-		}
-		else{
-			System.out.println("not");
-		}
-	}
-}
+
