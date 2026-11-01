@@ -38,5 +38,8 @@ public class checkequals{
 		}
 		return false;
 	}
-	public static 
+	public static void main(String args[])
+	{
+		System.out.println(check("java","java"));
+	}
 }
