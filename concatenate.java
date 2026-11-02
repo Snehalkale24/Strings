@@ -29,7 +29,10 @@ public class concatenate{
 		System.out.println("enter second string:");
 		String s2=s.nextLine();
 
-		
+		String str3=s1+s2;
+		System.out.println("concatenate:"+str3);
+
+
 
 	}
 }
