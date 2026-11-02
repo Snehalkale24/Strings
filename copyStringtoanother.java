@@ -22,12 +22,3 @@
 // 	}
 // }
 
-public class copyStringtoanother{
-	public static void main(String arrgs[])
-	{
-		String s1="snehal";
-		String s2=s1;
-		System.out.println("original"+s1);
-		System.out.println("df:"+s2);
-	}
-}
