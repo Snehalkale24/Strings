@@ -20,5 +20,8 @@
 
 import java.util.*;
 public class concatenate{
-	
+	public static void main(String args[])
+	{
+		
+	}
 }
