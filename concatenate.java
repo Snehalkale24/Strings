@@ -25,6 +25,11 @@ public class concatenate{
 		Scanner s=new Scanner(System.in);
 		System.out.println("ente first:");
 		String s1=s.nextLine();
+
+		System.out.println("enter second string:");
+		String s2=s.nextLine();
+
 		
+
 	}
 }
