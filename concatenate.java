@@ -18,3 +18,7 @@
 // // // 	}
 // // // }
 
+import java.util.*;
+public class concatenate{
+	
+}
