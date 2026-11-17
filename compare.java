@@ -27,7 +27,10 @@ public class compare{
 
 		if(s1.equals(s2))
 		{
-			
+			System.out.println("String equals:");
+		}
+		else{
+			System.out.println("not:");
 		}
 	}
 }
