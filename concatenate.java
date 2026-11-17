@@ -19,3 +19,19 @@
 // // // }
 
 
+import java.util.*;
+public class concatenate{
+	public static void main(String args[])
+	{
+		Scanner s=new Scanner(System.in);
+
+		System.out.println("enter first no:");
+		String s1=s.nextLine();
+
+		System.out.println("enter second:");
+		String s2=s.nextLine();
+
+		String str3=s1+s2;
+		System.out.println("concatenate:"+str3);
+	}
+}
