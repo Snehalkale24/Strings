@@ -26,19 +26,16 @@
 public class countvowels{
 	public static void main(String args[])
 	{
-		int vowels=0;
-		int consonents=0;
 		String s="snehal";
+		int vowels=0;
+		int consonent=0;
 		for(int i=0;i<s.length();i++)
 		{
 			char ch=s.charAt(i);
-			if(ch=='a'|| ch=='i'|| ch=='e' || ch=='o'|| ch=='u')
-			{
-				vowels++;
-			}else{
-				consonents++;
+			if(ch=='a'|| ch=='i'||ch=='e'||ch=='o'||ch=='u')
+			{;
+				
 			}
 		}
-		System.out.println("vowels:"+vowels);
 	}
 }
