@@ -22,3 +22,11 @@
 // 	}
 // }
 
+import java.util.*;
+public class duplicateChar
+{
+	public static void main(String args[])
+	{
+		String str="snehhal";
+	}
+}
