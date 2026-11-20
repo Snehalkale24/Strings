@@ -34,8 +34,19 @@ public class sortchar
 		{
 			for(int j=i+1;j<ch.length;j++)
 			{
-				if(ch)
+				if(ch[i]>ch[j])
+				{
+					char temp=ch[i];
+					ch[i]=ch[j];
+					ch[j]=temp;
+				}
 			}
 		}
+		return new String(ch);
+	}
+	public static void main(String args[])
+	{
+		String str="snehal";
+		System.out.println("sort:"+sort(str));
 	}
 }
