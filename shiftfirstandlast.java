@@ -17,7 +17,9 @@
 // 	}
 // }
 
-public class shiftfirsttolast{
+import java.util.*;
+public class shiftfirstandlast
+{
 	public static String swap(String str)
 	{
 		char ch[]=str.toCharArray();
@@ -25,6 +27,11 @@ public class shiftfirsttolast{
 		ch[0]=ch[ch.length-1];
 		ch[ch.length-1]=temp;
 
-		return 
+		return new String(ch);
+	}
+	public static void main(String args[])
+	{
+		String str="snehal";
+		System.out.println("result:"+swap(str));
 	}
 }
