@@ -21,6 +21,10 @@ public class shiftfirstandlast
 {
 	public static int shift(String str)
 	{
-		char ch[]=
+		char ch[]=str.toCharArray();
+
+		char temp=ch[0];
+		ch[0]=ch[ch.length-1];
+		
 	}
 }
