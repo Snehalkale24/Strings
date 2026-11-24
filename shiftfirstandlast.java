@@ -26,6 +26,7 @@ public class shiftfirstandlast
 		char temp=ch[0];
 		ch[0]=ch[ch.length-1];
 		ch[ch.length-1]=temp;
+		 System.out.println(ch);
 		
 
 	}
