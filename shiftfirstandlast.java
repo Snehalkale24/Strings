@@ -19,20 +19,20 @@
 
 public class shiftfirstandlast
 {
-	public static int shift(String str)
+	public static void shift(String str)
 	{
 		char ch[]=str.toCharArray();
 
 		char temp=ch[0];
 		ch[0]=ch[ch.length-1];
 		ch[ch.length-1]=temp;i
-		return new String(ch);
+		
 
 	}
 	public static void main(String args[])
 	{
 		String str="hello";
-		System.out.println("result"+shift(str));
+		shift(str);
 	}
 
 }
