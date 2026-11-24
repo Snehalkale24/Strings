@@ -29,5 +29,10 @@ public class shiftfirstandlast
 		return new String(ch);
 
 	}
-	
+	public static void main(String args[])
+	{
+		String str="hello";
+		System.out.println("result"+shift(str));
+	}
+
 }
