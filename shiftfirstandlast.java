@@ -17,3 +17,10 @@
 // 	}
 // }
 
+public class shiftfirstandlast
+{
+	public static int shift(String str)
+	{
+		char ch[]=
+	}
+}
