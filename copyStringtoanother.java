@@ -22,3 +22,13 @@
 // 	}
 // }
 
+import java.util.*;
+public class copyStringtoanother{
+	public static void main(String args[])
+	{
+		String s1="snehal";
+		String s2=s1;
+		System.out.println("original"+s1);
+		System.out.println("copy:"+s2);
+	}
+}
