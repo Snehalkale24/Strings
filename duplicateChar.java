@@ -23,28 +23,24 @@
 // }
 
 import java.util.*;
-public class duplicateChar
-{
+public class duplicateChar{
 	public static void main(String args[])
 	{
-		String str="snehhal";
-		for(int i=0;i<str.length();i++)
+		String s="snehall";
+		for(int i=0;i<s.length();i++)
 		{
-			char ch=str.charAt(i);
 			int count=0;
-			for(int j=0;j<str.length();j++)
+			for(int j=0;j<s.length();j++)
 			{
-				if(str.charAt(i)==str.charAt(j))
+				if(s.charAt(i)==s.charAt(j))
 				{
 					count++;
 				}
 			}
 			if(count>1)
 			{
-				System.out.println(str.charAt(i));
+				System.out.println(s.charAt(i));
 			}
-
-
 		}
 	}
 }
